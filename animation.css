@@ -1,0 +1,14 @@
+@keyframes my-animation {
+    from {margin-left: 0%;}
+    to {margin-left: 100%;}
+}
+
+h1 {
+    font-size: 3.5em;
+    color: darkmagenta;
+
+    animation-name: my-animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+}
